@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <title>ITMD-362-Project 1, Sean Reimer</title>
+    <meta charset='utf-8'/>
+    <meta name="viewport" content = "width=device-width,initial-scale=1.0,shrink-to-fit=no"/>
+    <link rel="stylesheet" media = "screen" href = "css/meyersreset-and-normalize-form.css"/>
+    <link rel="stylesheet" media = "screen" href = "css/screen.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@1,100&display=swap" rel="stylesheet">  
+	<!-- Connecting to JavaScript file -->
+    <script async src="jQuery.js"></script>
+	<!-- JQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- Creating header for my form -->
+    <h1>Weebs...Unite! Discord Server Sign-up</h1>
+    <!-- I am creating my HTML input form for folks who want to sign up to my discord server -->
+    <form method = "post" autocomplete = "on" action = "#null">
+	<!-- Creating my introduction paragraph -->
+	<p>Hello!  This form is to sign up for my gaming discord server, Weebs...Unite!  Please fill out the following info to register for my server</p>
+      <ul> <!-- HTML input for first name, last name, username, cell number -->
+		   <!-- preferred way of communication, region, preferred genres of games -->
+	    <li>
+	      <label for="first_name">First Name:</label>
+          <input type="text" id="first_name" name="first_name" placeholder="First Name"/>
+        </li>
+	    <li>
+	      <label for="last_name">Last Name:</label>
+          <input type="text" id="last_name" name="last_name" placeholder="Last Name"/>
+        </li>
+	    <li>
+	      <label for="username">Username:</label>
+          <input type="text" id="username" name="username" placeholder="Username#0000"/>
+        </li>
+	    <li>
+	      <label for="phone_number">Phone Number:</label>
+          <input type="tel" id="phone_number" name="phone_number" placeholder="Phone Number"/>
+        </li>
+	    <li>
+	      <label for="prefer_comm">Preferred way to communicate (chat or voice):</label>
+          <input type="text" id="prefer_comm" name="prefer_comm" placeholder="Chat or Voice"/>
+        </li>
+	    <li>
+	      <label for="region">Region:</label>
+          <input type="text" id="region" name="region" placeholder="Region"/>
+        </li>
+	    <li>
+	      <label for="game_genre">Favorite genres of games:</label>
+          <input type="text" id="game_genre" name="game_genre" placeholder="Game Genre"/>
+        </li>		
+	    <!-- I am creating the submit button and the display user button-->
+	    <li class = "button">
+	     <button type="button" id="submit">Submit</button>
+		 <button type="button" id="display_user">Display User</button>
+        </li>
+	  </ul>
+    </form>
+  </body>
+</html>
