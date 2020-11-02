@@ -1,0 +1,159 @@
+/* Header title */
+h1 {
+  text-align: center;
+  padding: 1em;
+  font: 36px monospace;
+  border: 5px solid;
+  border-radius: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color: honeydew;
+}
+/* paragraph description */
+p {
+  text-align: center;
+  font: 30px serif;
+  font-style: italic;
+  padding: 2px;
+  margin-bottom: 2em;
+  color: blue;
+}
+/* HTML user input form */
+form {
+  margin: 0 auto;
+  width: fit-content;
+  text-align: center;
+  padding: 2em;
+  border: 5px solid #CCC;
+  border-radius: 2em;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  background-color: #00ffff;
+}
+/* list tags within my HTML form */
+ul {
+  list-style: none;
+  padding: 3px;
+  margin: 0 auto;
+}
+form li + li {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+/* labels that are above the input boxes */
+label {
+  display: inline-block;
+  width: 90%;
+  text-align: center;
+}
+/* the text boxes that the users are inputting data in */
+input {
+  font: 18px monospace;
+  width: 90%;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+input:focus {
+  border-color: #000;
+}
+/* the submit and display user buttons */
+.button {
+  width: 100%;
+  text-align: center;
+}
+button {
+  color: red;
+}
+/* smart devices media-query */
+@media screen and (min-width: 480px) {
+  h1 {
+    background-color: chartreuse;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: auto;
+  }
+  p {
+    text-align: center;
+    font: 18px serif;
+    padding: 3px;
+    margin-bottom: 3em;
+    color: purple;
+  }
+  button {
+    color: purple;
+  }
+  input:focus {
+    border-color: #000;
+  }
+  input {
+    font: 18px monospace;
+    width: 90%;
+    box-sizing: border-box;
+    border: 3px solid #999;
+    height: 2em;
+  }
+  form {
+    background-color: gold;
+  }
+}
+/* tablet devices media-query */
+@media screen and (min-width: 768px) {
+  h1 {
+    background-color: #00ffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: auto;
+  }
+  p {
+    text-align: center;
+    font: 20px serif;
+    padding: 3px;
+    margin-bottom: 3em;
+    color: blue;
+  }
+  button {
+    color: blue;
+  }
+  input:focus {
+    border-color: #000;
+  }
+  input {
+    font: 18px monospace;
+    width: 90%;
+    box-sizing: border-box;
+    border: 3px solid #999;
+    height: 2em;
+  }
+  form {
+    background-color: aquamarine;
+  }
+}
+/* desktop/laptop/PC devices media query */
+@media screen and (min-width: 1080px) {
+  h1 {
+    background-color: floralwhite;
+    font-family: 'Courier New', Courier, monospace;
+    width: auto;
+  }
+  p {
+    text-align: center;
+    font: 22px serif;
+    padding: 3px;
+    margin-bottom: 3em;
+    color: red;
+  }
+  button {
+    color: red;
+  }
+  input:focus {
+    border-color: #000;
+  }
+  input {
+    font: 18px monospace;
+    width: 90%;
+    box-sizing: border-box;
+    border: 3px solid #999;
+    height: 2em;
+  }
+  form {
+    background-color: aliceblue;
+  }
+}
