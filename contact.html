@@ -8,31 +8,27 @@
     <link rel="stylesheet" media = "screen" href = "css/screen.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@200&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@1,100&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@1,100&display=swap" rel="stylesheet">
 	<!-- Connecting to JavaScript file -->
     <script async src="jQuery.js"></script>
 	<!-- JQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
-    <!-- Creating navigation tab here-->
-    <nav id = "navigation">
-      <span><a href = "index.html">Home</a></span>    
-      <span><a href = "history.html">History</a></span>
-      <span><a href = "constitution.html">Constitution</a></span>
-      <span><a href = "journal.html">D & U Journal</a></span>
-      <span><a href = "austria.html">Austria</a></span>
-      <span><a href = "contact.html">Contact Us</a></span>
-    </nav>
-
-    <!-- Creating header for our intro page -->
-    <h1>The International Society for Universal Dialogue</h1>
-	  <!-- Creating our introduction paragraph and inspirational quote (for now) -->
-    <p>Welcome to the International Society for Universal Dialogue!</p>
-    <p>"The reality is that international institutions like the UN can only be as effective as its members allow it to be". - Atal Bihari Vajpayee</p>
-    <!-- Asking the user if they would like to join an international origination with other people who believe different things than they do -->
-    <p>Would you like to join an international origination with other people who believe different things than you do?</p>
-    <P>If so, please browse over to our "About" page and we would gladly explain to you more of what our originations would be!</P>
-    <!-- Need to add some media here (image, video, audio) -->
+    <div>
+      <h2>Sign up here</h2>
+      <form method="get" action="#null" autocomplete="on" >
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name...">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+        <label for="pnumber">Phone number</label>
+        <input type="text" id="pnumber" name="phonemunber" placeholder="Your phone number...">
+        <label for="email">Email address</label>
+        <input type="email" name="email" id="email" placeholder="Your E-mail address..." pattern="^.+@.+$">
+        <input type="submit" value="Sign up">
+      </form>
+      <p>By clicking "Sign up",you agree to receive emails from us about the conference and our organization</p>
+    </div>
   </body>
 </html>
