@@ -1,4 +1,20 @@
 /* Header title */
+  div.gallery {
+    border: 1px solid #ccc;
+    padding: 10px ;
+  }
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
 h1 {
   text-align: center;
   padding: 1em;
@@ -66,6 +82,11 @@ button {
 }
 /* smart devices media-query */
 @media screen and (min-width: 480px) {
+  div.responsive {
+          width: 80%;
+          height: auto;
+          display: inline;
+        }
   h1 {
     background-color: chartreuse;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -97,6 +118,14 @@ button {
 }
 /* tablet devices media-query */
 @media screen and (min-width: 768px) {
+  div.responsive {
+          padding: 10px;
+          width: 80%;
+          display:flex;
+          margin-left: auto;
+          margin-right: auto;
+          text-align: center;
+    }
   h1 {
     background-color: #00ffff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -128,6 +157,13 @@ button {
 }
 /* desktop/laptop/PC devices media query */
 @media screen and (min-width: 1080px) {
+  div.responsive {
+          padding: 10px;
+          width: 80%;
+          display:flex;
+          margin-left: auto;
+          margin-right: auto;
+          text-align: center;
   h1 {
     background-color: floralwhite;
     font-family: 'Courier New', Courier, monospace;
