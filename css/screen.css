@@ -10,6 +10,9 @@ body {
     background-color: #F5FAE3;
     padding: 10px;
   }
+  html {
+    text-align: center;
+  }
 img{
    margin-left: auto;
    margin-right: auto;
