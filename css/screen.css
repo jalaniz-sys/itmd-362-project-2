@@ -10,6 +10,9 @@ body {
     background-color: #F5FAE3;
     padding: 10px;
   }
+  html {
+    text-align: center;
+  }
 img{
    margin-left: auto;
    margin-right: auto;
@@ -141,6 +144,32 @@ input:focus {
 }
 button {
   color: red;
+}
+.personagem {
+  color: white; 
+  background-color: silver;
+}
+/*Reveal Button*/
+.chivecc {
+  text-align: center;
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+  width: 90%;
+  transition: .1s;
+  border: 5px inset#8B008B;
+  position: relative;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.innerSect {
+  padding: 15px 0;
+  display: none;
+  overflow: hidden;
+  
+}
+.active, .chivecc:hover {
+  background-color: blue;
 }
 /* smart devices media-query */
 @media screen and (min-width: 480px) {

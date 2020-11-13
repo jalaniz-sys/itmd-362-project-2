@@ -21,7 +21,6 @@
           <li><a href = "index.html">Home</a></li>
           <li><a href = "about.html">About Us</a></li>
           <li><a href = "austria.html">Austria Conference</a></li>
-          <li><a href = "contact.html">Contact Us</a></li>
       </ul>
   </header>
 
@@ -33,5 +32,27 @@
     <p>Austria is world-famous for its arts and crafts, most notably fine hand-crafted items, costumized jewellery, ceramics, and glassware. Tourism is an essential pillar of the Austrian economy. Austria is a mountainous country with one of the largest natural land reserves in central Europe.</p>
     <!-- Asking the user if they would like to contact us -->
     <p>If you would like to hear more info about the Austria Confererence page, on top of others, then please go to our Contact Us page!</p>
+    <div>
+      <form method="get" action="#null" autocomplete="on" >
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name...">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+        <label for="pnumber">Phone number</label>
+        <input type="text" id="pnumber" name="phonemunber" placeholder="Your phone number...">
+        <label for="email">Email address</label>
+        <input type="email" name="email" id="email" placeholder="Your E-mail address..." pattern="^.+@.+$">
+        <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="South Africa">South Africa</option>
+        <option value="DRCongo">DRCongo</option>
+        <option value="usa">USA</option>
+      </select>
+      <label for="subject">Type your text here...</label>
+      <textarea id="subject" name="subject" placeholder="Speak your mind.."></textarea>
+      <input type="submit" value="Sign up">
+      </form>
+      <p>By clicking "Sign up",you agree to receive emails from us about the conference and our organization</p>
+    </div>
   </body>
 </html>

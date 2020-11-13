@@ -40,3 +40,18 @@ $(document).ready(function(){
     })
     })
   });
+
+var conta = document.getElementsByClassName("chivecc");
+var i;
+
+for (i = 0; i < conta.length; i++) {
+  conta[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var x = this.nextElementSibling;
+    if (innerSect.style.display === "block"){
+      innerSect.style.display = "none";
+    } else {
+      innerSect.style.display = "block";;
+    }
+  });
+}
