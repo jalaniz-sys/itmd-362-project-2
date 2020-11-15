@@ -231,11 +231,11 @@ textarea {
     background-color: tomato;
   }
   .nav {
-    text-align:center;
-    list-style:none;
-    margin:0;
-    padding:0;
-    border:5px solid darkslategray;
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 5px solid darkslategray;
     background-color: tomato;
     text-transform: uppercase;
   }
@@ -261,7 +261,7 @@ textarea {
   div.responsive {
     padding: 10px;
     width: 80%;
-    display:flex;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -310,7 +310,7 @@ textarea {
   form {
     background-color: turquoise;
     width: 55%;
-    display:block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
   }
@@ -324,11 +324,11 @@ textarea {
     width: 55%;
   }
   .nav {
-    text-align:center;
-    list-style:none;
-    margin:0;
-    padding:0;
-    border:5px solid gray;
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 5px solid gray;
     background-color: turquoise;
     text-transform: uppercase;
   }
@@ -354,7 +354,7 @@ textarea {
   div.responsive {
     padding: 10px;
     width: 80%;
-    display:flex;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -390,7 +390,7 @@ textarea {
   form {
     background-color: teal;
     width: 55%;
-    display:block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
   }
@@ -405,11 +405,11 @@ textarea {
     resize: vertical
   }
   .nav {
-    text-align:center;
-    list-style:none;
-    margin:0;
-    padding:0;
-    border:5px solid darkslategray;
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 5px solid darkslategray;
     background-color: teal;
     text-transform: uppercase;
   }
