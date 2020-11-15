@@ -1,37 +1,42 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
   <head>
     <title>ITMD-362-Project 2, Austria Page</title>
     <meta charset='utf-8'/>
-    <meta name="viewport" content = "width=device-width,initial-scale=1.0,shrink-to-fit=no"/>
-    <link rel="stylesheet" media = "screen" href = "css/meyersreset-and-normalize-form.css"/>
-    <link rel="stylesheet" media = "screen" href = "css/screen.css"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no"/>
+    <link rel="stylesheet" media="screen" href="css/meyersreset-and-normalize-form.css"/>
+    <link rel="stylesheet" media="screen" href="css/screen.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@1,100&display=swap" rel="stylesheet">
-	<!-- Connecting to JavaScript file -->
+	  <!-- Connecting to JavaScript file -->
     <script async src="jQuery.js"></script>
-	<!-- JQuery library -->
+	  <!-- JQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
     <header>
-      <!-- Creating navigation tab here-->
-      <ul class = "nav">
-          <li><a href = "index.html">Home</a></li>
-          <li><a href = "about.html">About Us</a></li>
-          <li><a href = "austria.html">Austria Conference</a></li>
+      <!-- Creating navigation tab here -->
+      <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="austria.html">Austria Conference</a></li>
       </ul>
-  </header>
-
+    </header>
     <!-- Creating header for our austria page -->
     <h1>Welcome to the Austria Conference Page</h1>
     <!-- placing Austria photo here -->
-    <img src="media/austria.jpeg" alt="austria" class="center">
-	  <!-- Creating paragraphs -->
-    <p>Austria is world-famous for its arts and crafts, most notably fine hand-crafted items, costumized jewellery, ceramics, and glassware. Tourism is an essential pillar of the Austrian economy. Austria is a mountainous country with one of the largest natural land reserves in central Europe.</p>
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank">
+          <img src="media/austria.jpeg" alt="austria">
+        </a>
+      </div>
+    </div>
+	  <!-- Creating paragraph -->
+    <p>Austria is world-famous for its arts and crafts, most notably fine hand-crafted items, customized jewellery, ceramics, and glassware. Tourism is an essential pillar of the Austrian economy. Austria is a mountainous country with one of the largest natural land reserves in central Europe.</p>
     <!-- Asking the user if they would like to contact us -->
-    <p>If you would like to hear more info about the Austria Confererence page, on top of others, then please go to our Contact Us page!</p>
+    <p>If you would like to hear more info about the Austria Confererence page, on top of others, then please fill in your info within the form below!</p>
     <div>
       <form method="get" action="#null" autocomplete="on" >
         <label for="fname">First Name</label>
@@ -43,16 +48,17 @@
         <label for="email">Email address</label>
         <input type="text" name="email" id="email" placeholder="Your E-mail address..." pattern="^.+@.+$">
         <label for="country">Country</label>
-      <select id="country" name="country">
-        <option value="South Africa">South Africa</option>
-        <option value="DRCongo">DRCongo</option>
-        <option value="usa">USA</option>
-      </select>
+        <select id="country" name="country">
+          <option value="United States">United States</option>
+          <option value="DRCongo">DRCongo</option>
+          <option value="south africa">South Africa</option>
+          <option value="other">Other</option>
+        </select>
       <label for="subject">Type your text here...</label>
       <textarea id="subject" name="subject" placeholder="Speak your mind.."></textarea>
       <input type="submit" value="Sign up">
       </form>
-      <h2>**By clicking "Sign up",you agree to receive emails from us about the conference and our organization.</h2>
+      <h2>**By clicking "Sign up", you agree to receive emails from us about the conference and our organization.**</h2>
     </div>
   </body>
 </html>
