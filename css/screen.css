@@ -120,7 +120,7 @@ ul {
   margin: 0 auto;
 }
 a:hover {
-  background-color: none;
+  background-color: white;
 }
 form li + li {
   margin-top: 1em;
