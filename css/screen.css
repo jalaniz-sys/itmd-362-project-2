@@ -112,7 +112,7 @@ form {
   border-radius: 2em;
   margin-top: 2px;
   margin-bottom: 2px;
-  background-color: #B6D83B;
+  background-color: teal;
 }
 /* list tags within my HTML form */
 ul {
@@ -290,7 +290,7 @@ div.responsive{
     resize: vertical
   }
   form {
-    background-color: #B6D83B;
+    background-color: teal;
     width: 55%;
     display:block;
     margin-left: auto;
@@ -345,7 +345,7 @@ div.responsive{
         width: 20%;
     }
   form {
-    background-color: aliceblue;
+    background-color: teal;
     width: 55%;
     display:block;
     margin-left: auto;
