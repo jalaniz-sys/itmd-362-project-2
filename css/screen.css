@@ -91,7 +91,7 @@ h1 {
   border-radius: 1em;
   margin-top: 1em;
   margin-bottom: 1em;
-  background-color: #B6D83B;
+  background-color: teal;
 }
 /* paragraph description */
 p {
@@ -112,7 +112,7 @@ form {
   border-radius: 2em;
   margin-top: 2px;
   margin-bottom: 2px;
-  background-color: #B6D83B;
+  background-color: teal;
 }
 /* list tags within my HTML form */
 ul {
@@ -121,7 +121,7 @@ ul {
   margin: 0 auto;
 }
 a:hover{
-  background-color: #B6D83B;
+  background-color: blue;
 }
 form li + li {
   margin-top: 1em;
@@ -179,7 +179,7 @@ button {
 }
 
 input[type=submit]:hover {
-  background-color:#637718;
+  background-color:blue;
 }
 textarea {
   height:100px;
@@ -203,7 +203,7 @@ div.responsive{
     font: 18px serif;
     padding: 3px;
     margin-bottom: 3em;
-    color: purple;
+    color: black;
   }
   button {
     color: purple;
@@ -248,7 +248,7 @@ div.responsive{
           text-align: center;
     }
   h1 {
-    background-color: #B6D83B;
+    background-color: teal;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: auto;
   }
@@ -257,7 +257,7 @@ div.responsive{
     font: 20px serif;
     padding: 3px;
     margin-bottom: 3em;
-    color: blue;
+    color: black;
   }
   h2{text-align: center;
   font: 15px serif;
@@ -267,7 +267,7 @@ div.responsive{
 
   }
   button {
-    color: blue;
+    color: black;
   }
   input:focus {
     border-color: #000;
@@ -290,7 +290,7 @@ div.responsive{
     resize: vertical
   }
   form {
-    background-color: #B6D83B;
+    background-color: teal;
     width: 55%;
     display:block;
     margin-left: auto;
@@ -345,7 +345,7 @@ div.responsive{
         width: 20%;
     }
   form {
-    background-color: aliceblue;
+    background-color: teal;
     width: 55%;
     display:block;
     margin-left: auto;
