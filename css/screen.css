@@ -80,6 +80,9 @@ div.desc {
 }
 .dropdown a:hover {background-color: grey;}
 .show {display: block;}
+input[type=text], select, textarea{
+  border-radius: 4px;
+}
 h1 {
   text-align: center;
   padding: 1em;
@@ -117,6 +120,9 @@ ul {
   padding: 3px;
   margin: 0 auto;
 }
+a:hover{
+  background-color: #B6D83B;
+}
 form li + li {
   margin-top: 1em;
   margin-bottom: 1em;
@@ -146,7 +152,7 @@ button {
   color: red;
 }
 .personagem {
-  color: white; 
+  color: white;
   background-color: silver;
 }
 /*Reveal Button*/
@@ -166,18 +172,27 @@ button {
   padding: 15px 0;
   display: none;
   overflow: hidden;
-  
+
 }
 .active, .chivecc:hover {
   background-color: blue;
 }
+
+input[type=submit]:hover {
+  background-color:#637718;
+}
+textarea {
+  height:100px;
+  width: 55%;
+}
 /* smart devices media-query */
 @media screen and (min-width: 480px) {
-  div.responsive {
-          width: 80%;
-          height: auto;
-          display: inline;
-        }
+div.responsive{
+  width: 85%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
   h1 {
     background-color: chartreuse;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -203,6 +218,21 @@ button {
     border: 3px solid #999;
     height: 2em;
   }
+  input[type=submit]{
+        width: 40%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  textarea {
+    width: 90%;
+  }
+  h2{
+  text-align: center;
+  font: 12px serif;
+  padding: 3px;
+  margin-bottom: 3em;
+}
   form {
     background-color: gold;
   }
@@ -229,6 +259,13 @@ button {
     margin-bottom: 3em;
     color: blue;
   }
+  h2{text-align: center;
+  font: 15px serif;
+  padding: 3px;
+  margin-bottom: 3em;
+
+
+  }
   button {
     color: blue;
   }
@@ -242,9 +279,33 @@ button {
     border: 3px solid #999;
     height: 2em;
   }
+  input[type=text] {
+    width: 55%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+  }
   form {
     background-color: #B6D83B;
+    width: 55%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
   }
+  input[type=submit]{
+        width: 20%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  textarea {
+      width: 55%;
+    }
 }
 /* desktop/laptop/PC devices media query */
 @media screen and (min-width: 1080px) {
@@ -280,7 +341,24 @@ button {
     border: 3px solid #999;
     height: 2em;
   }
+  input[type=submit]{
+        width: 20%;
+    }
   form {
     background-color: aliceblue;
+    width: 55%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  input[type=text] {
+    width: 55%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
   }
 }
