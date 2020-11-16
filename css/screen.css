@@ -57,7 +57,7 @@ div.desc {
   cursor: pointer;
 }
 .dropbtn:hover, .dropbtn:focus {
-  background-color: white;
+  background-color: black;
 }
 .dropdown {
   position: relative;
@@ -297,13 +297,13 @@ textarea {
     font: 18px monospace;
     width: 90%;
     box-sizing: border-box;
-    border: 3px solid #999;
+    border: 3px solid grey;
     height: 2em;
   }
   input[type=text] {
     width: 55%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid grey;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
