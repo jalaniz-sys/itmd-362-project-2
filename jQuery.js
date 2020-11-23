@@ -15,7 +15,7 @@ for (i = 0; i < 3; i++) {
 } }, 200);
 
 /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
-var x = document.getElementById("myLinks");
+var x = document.getElementById("nav");
 if (x.style.display === "block") {
   x.style.display = "none";
 } else {
