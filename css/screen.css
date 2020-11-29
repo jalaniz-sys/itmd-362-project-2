@@ -31,23 +31,6 @@ div.desc {
   padding: 15px;
   text-align: center;
   }
-.nav {
-  text-align:center;
-  list-style:none;
-  margin:0;
-  padding:0;
-  border:5px solid black;
-  background-color:teal;
-  text-transform: uppercase;
-}
-.nav li {
-  display:inline-block;
-}
-.nav a {
-  color:black;
-  display:inline-block;
-  padding:12px;
-}
 .dropbtn {
   background-color: teal;
   color: black;
@@ -249,15 +232,6 @@ textarea {
   }
   /* Starting hamburger CSS here */
   /* Style the navigation menu */
-  .nav {
-  text-align: center;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  border: 5px solid gray;
-  background-color: tomato;
-  text-transform: uppercase;
-  }
   /* Style the hamburger navigation menu */
   .hamburgerNav {
   overflow: hidden;
@@ -364,6 +338,14 @@ textarea {
     background-color: turquoise;
     text-transform: uppercase;
   }
+  .nav li {
+    display:inline-block;
+  }
+  .nav a {
+    color:black;
+    display:inline-block;
+    padding:12px;
+  }
   .personagem {
     color: black;
     background-color: turquoise;
@@ -444,6 +426,14 @@ textarea {
     border: 5px solid darkslategray;
     background-color: teal;
     text-transform: uppercase;
+  }
+  .nav li {
+    display:inline-block;
+  }
+  .nav a {
+    color:black;
+    display:inline-block;
+    padding:12px;
   }
   .personagem {
     color: black;
