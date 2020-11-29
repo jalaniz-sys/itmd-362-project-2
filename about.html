@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@1,100&display=swap" rel="stylesheet">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Connecting to JavaScript file -->
     <script async src="jQuery.js"></script>
     <!-- JQuery library -->
@@ -17,11 +19,14 @@
   <body>
     <header>
       <!-- Creating navigation tab here -->
-      <ul class="nav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="austria.html">Austria Conference</a></li>
-      </ul>
+      <!-- When in mobile mode, hide navigation links -->
+      <div id="hamburgerNav">
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="austria.html">Austria Conference</a></li>
+        </ul>
+      </div>
     </header>
     <!-- Adding our 'about us' section -->
     <h1 class="personagem">About Us</h1>
