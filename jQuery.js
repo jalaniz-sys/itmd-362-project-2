@@ -9,13 +9,15 @@ for (i = 0; i < 3; i++) {
     if (x.style.display === "block"){
       x.style.display = "none";
     } else {
-      x.style.display = "block";;
+      x.style.display = "block";
     }
   });
 } }, 200);
 
 /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
-setTimeout(() => {  
+
+function myFunction() {
+  setTimeout(() => {  
 var x = document.getElementById("hamburgerNav");
 if (x.style.display === "block") {
   x.style.display = "none";
@@ -23,3 +25,4 @@ if (x.style.display === "block") {
   x.style.display = "block";
 }
 }, 200);
+}
