@@ -193,7 +193,6 @@ textarea {
   }
   h1 {
     background-color: tomato;
-    background-color: teal;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: auto;
   }
@@ -247,8 +246,8 @@ textarea {
     position: relative;
     margin-bottom: 5px;
     margin-top: 5px;
-    background-color: teal;
   }
+  /* Starting hamburger CSS here */
   /* Style the navigation menu */
   .nav {
   text-align: center;
@@ -259,6 +258,35 @@ textarea {
   background-color: tomato;
   text-transform: uppercase;
   }
+  /* Style the hamburger navigation menu */
+  .hamburgerNav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+  display: none;
+  }
+  /* Style hamburger navigation menu links */
+  .hamburgerNav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  }
+  /* Style the hamburger menu */
+  .hamburgerNav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  }
+  /* Add a grey background color on mouse-over */
+  .hamburgerNav a:hover {
+  background-color: #ddd;
+  color: black;
+  }
+  /*Ending hamburger CSS here */
 }
 /* tablet devices media-query */
 @media screen and (min-width: 768px) {
