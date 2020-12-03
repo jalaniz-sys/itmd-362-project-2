@@ -14,15 +14,14 @@ for (i = 0; i < 3; i++) {
   });
 } }, 200);
 
-/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
-
-function myFunction() {
-  setTimeout(() => {  
-var x = document.getElementById("hamburgerNav");
-if (x.style.display === "block") {
-  x.style.display = "none";
-} else {
-  x.style.display = "block";
-}
-}, 200);
-}
+setTimeout(()  => {
+  document.getElementById("main").onsubmit = function() {
+    if (document.getElementById("fname").value == "") {
+      alert("Name Field is required");
+      return false;
+    }
+    if (document.getElementById("email").value == "") {
+      alert("Email Field is required");
+      return false;
+    }
+  } }, 200);
